@@ -42,8 +42,16 @@ export const updateTodo = async (request, response) => {
       { _id: request.params.id },
       { data: request.body.data }
     );
-    // await Todo.save();
     const Todo = await todo.findById(request.params.id); 
+    return response.status(200).json(Todo);
+  } catch (error) {
+    return response.status(500).json(error.message);
+  }
+};
+
+export const deleteTodo = async (request, response) => {
+  try {
+    const Todo = await todo.findByIdAndDelete(request.params.id);
     return response.status(200).json(Todo);
   } catch (error) {
     return response.status(500).json(error.message);
