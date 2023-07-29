@@ -7,7 +7,7 @@ import {
   DELETE_TODO,
   TOGGLE_TAB
 } from "./type";
-const API_URL = "http://localhost:5000";
+const API_URL = "https://to-do-list-ybfs.onrender.com/" || "http://localhost:5000";
 export const addNewTodo = (data) => async (dispatch) => {
   try {
     const res = await axios.post(`${API_URL}/todos`, { data });
