@@ -7,7 +7,9 @@ import Todo from "./Todo.jsx";
 import Tabs from "./Tabs.jsx";
 const Todos = () => {
   const dispatch = useDispatch();
-  const todos = useSelector((state) => state.todos);
+  const todos = useSelector((state) => {
+    return state.todos;
+  });
   const currentTab = useSelector((state) => state.currentTab);
   useEffect(() => {
     dispatch(getAllTodos());
@@ -34,15 +36,12 @@ const Todos = () => {
       <article>
         <div>
           <Tabs currentTab={currentTab} />
-          {{
-            if(todos) {
-              todos.some((todo) => todo.done) ? (
-                <button className="btn clear" onClick={removeDoneTodos}>
-                  Remove Done Todos
-                </button>
-              ) : null;
-            },
-          }}
+         
+          {todos.some((todo) => todo.done) ? (
+            <button className="btn clear" onClick={removeDoneTodos}>
+              Remove Done Todos
+            </button>
+          ) : null}
         </div>
         <ul>
           {getTodos().map((todo) => (
