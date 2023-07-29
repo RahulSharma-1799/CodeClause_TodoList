@@ -90,8 +90,19 @@ This project was created using the following technologies.
  
  ##  Screenshots
  --- -
-
-
+![1](https://github.com/RahulSharma-1799/CodeClause_TodoList/assets/110728597/cc17ee94-3048-41b7-96ba-3961d5d6f6af)
+--- -
+![2](https://github.com/RahulSharma-1799/CodeClause_TodoList/assets/110728597/72039763-4e7f-4ab1-9744-c7a341813800)
+--- -
+![3](https://github.com/RahulSharma-1799/CodeClause_TodoList/assets/110728597/bd7f918c-899d-4993-928b-48f9754c64b6)
+--- -
+![4](https://github.com/RahulSharma-1799/CodeClause_TodoList/assets/110728597/9381acd4-e130-4a46-bc99-220a50569be7)
+--- -
+![5](https://github.com/RahulSharma-1799/CodeClause_TodoList/assets/110728597/ae4e6e00-9b12-424a-86bf-ed1512f83f44)
+--- -
+![6](https://github.com/RahulSharma-1799/CodeClause_TodoList/assets/110728597/725b8b95-e36c-44bb-9efc-356769586e9c)
+--- -
+![7](https://github.com/RahulSharma-1799/CodeClause_TodoList/assets/110728597/b3bacb34-9231-4146-8ad1-26aaefef3d59)
 
 ## Author
 - Github: [RahulSharma](https://github.com/RahulSharma-1799)
