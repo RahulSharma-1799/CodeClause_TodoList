@@ -1,6 +1,6 @@
 <H1 align ="center" > To_Do_List </h1>
 <h5  align ="center"> 
-Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN) </h5>
+Fullstack open source ToDoList application made with MongoDB, Express, React & Nodejs (MERN) </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
